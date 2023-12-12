@@ -1,0 +1,40 @@
+
+
+.cards {
+    width: 339px;
+    height: 170px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 25px;
+}
+
+.cards >div{
+    margin-top: 10px;
+    width: 300px;
+    display:flex;
+}
+
+.cards >div >h4{
+    margin-left: 20px;
+    color:var(--color-white);
+    width: 100px;
+}
+
+.cards >div >img{
+    margin-left: 172px;
+}
+
+.cards >p{
+    margin-left: 20px;
+    color:var(--color-white)
+}
+
+.cards >a{
+    margin-left: 20px;
+    text-decoration: none;
+    color:var(--color-primary);
+}
+
+.cards >a:hover{
+    color:var( --color-primary-hover);
+    text-decoration: underline;
+}

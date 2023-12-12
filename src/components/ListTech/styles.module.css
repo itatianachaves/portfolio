@@ -1,0 +1,19 @@
+
+
+.container >ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    max-width: 900px;
+    margin-left: 300px;
+}
+
+@media (min-width:1024px){
+    .container >ul{
+       margin-left: 0;
+        
+    }
+}
+

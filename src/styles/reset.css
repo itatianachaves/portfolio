@@ -1,0 +1,34 @@
+:root{
+    --color-primary:#6880ff;
+    --color-primary-hover:#7c91ff;
+    --color-black:#000000;
+    --color-white:#ffffff;
+    --color-link:#7b61ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vw;
+}
+
+body{
+    background-color: var(--color-black);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body, input, button, textarea {
+    font-family: 'Inter', sans-serif;
+  }
+
+  button{
+    cursor:pointer;
+  }

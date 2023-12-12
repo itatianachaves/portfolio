@@ -1,0 +1,14 @@
+
+
+.button{
+    background-color: var(--color-primary);
+    border:none;
+    width: 114px;
+    height: 39px;
+    border-radius: 12px;
+    color:var(--color-white);
+}
+
+.button:hover{
+    background-color: var( --color-primary-hover);
+}

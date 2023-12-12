@@ -1,0 +1,33 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 147px;
+    flex-direction: column;
+    color:#fff;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+
+.header >p{
+    font-weight: 500;
+}
+
+.header >nav >ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header >nav >ul >li{
+    list-style: none;
+    font-weight: 600;
+    color: var(--color-white)
+}
+
+@media (min-width:1024px){
+     .header{
+        flex-direction: row;
+         justify-content: space-around;
+         margin-left: 0;
+     }
+}
